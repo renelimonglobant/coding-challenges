@@ -6,5 +6,8 @@ function reverse(a) {
 
 const reverseStringNumber = (value) => value.split('').reverse().join('').replace(/^0+/, '')
 
-const result = reverse(process.argv[2])
-console.log(result)
+// for console debugging
+// const result = reverse(process.argv[2])
+// console.log(result)
+
+module.exports = reverse

@@ -1,0 +1,21 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "A project for coding challenges",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/renelimonglobant/coding-challenges.git"
+  },
+  "author": "Rene Limon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renelimonglobant/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/renelimonglobant/coding-challenges#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

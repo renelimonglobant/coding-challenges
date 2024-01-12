@@ -26,5 +26,3 @@ const result = spiralOrder([
 // ])
 console.log(':')
 console.log(result)
-// spiralOrder(3)
-// spiralOrder(4)

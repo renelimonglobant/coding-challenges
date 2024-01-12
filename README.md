@@ -1,8 +1,16 @@
 Execute the script via cmd using
 
 ```bash
-node scriptName arg1, arg2...
+node path/to/file/scriptName.js arg1, arg2...
 ```
+
+or:
+
+```bash
+npm start
+```
+
+to run the index path.
 
 ## Getting Started
 
@@ -12,7 +20,7 @@ Run the tests (remember to remove calls in scripts):
 npm run test
 ```
 
-it will test all suites at once
+it will test all suites at once.
 
 If you need to test an specific file, run:
 

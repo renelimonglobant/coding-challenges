@@ -1,3 +1,8 @@
+// jan 15th
+const deleteDuplicates = require('./deleteDuplicates/deleteDuplicates')
+const result = deleteDuplicates([1, 1, 3, 4])
+console.log([1, 1, 3, 4], result)
+
 // const reverse = require('./reverse/reverse')
 // const result = reverse('123')
 // console.log(result)
@@ -13,16 +18,16 @@
 // climStairs(3)
 // climStairs(4)
 
-const spiralOrder = require('./spiralOrder/spiralOrder')
-const result = spiralOrder([
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [9, 10, 11, 12],
-])
+// const spiralOrder = require('./spiralOrder/spiralOrder')
 // const result = spiralOrder([
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
+//   [1, 2, 3, 4],
+//   [5, 6, 7, 8],
+//   [9, 10, 11, 12],
 // ])
-console.log(':')
-console.log(result)
+// // const result = spiralOrder([
+// //   [1, 2, 3],
+// //   [4, 5, 6],
+// //   [7, 8, 9],
+// // ])
+// console.log(':')
+// console.log(result)

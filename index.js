@@ -1,7 +1,20 @@
+// jan 16th
+const swapPairs = require('./swapPairs/swapPairs')
+let result = swapPairs([1, 2, 3, 4])
+console.log([1, 2, 3, 4], result)
+result = swapPairs([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+console.log([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], result)
+result = swapPairs([1, 2, 3, 4, 5, 6])
+console.log([1, 2, 3, 4, 5, 6], result)
+result = swapPairs([1])
+console.log([1], result)
+result = swapPairs([])
+console.log([], result)
+
 // jan 15th
-const deleteDuplicates = require('./deleteDuplicates/deleteDuplicates')
-const result = deleteDuplicates([1, 1, 3, 4])
-console.log([1, 1, 3, 4], result)
+// const deleteDuplicates = require('./deleteDuplicates/deleteDuplicates')
+// const result = deleteDuplicates([1, 1, 3, 4])
+// console.log([1, 1, 3, 4], result)
 
 // const reverse = require('./reverse/reverse')
 // const result = reverse('123')

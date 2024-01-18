@@ -1,13 +1,18 @@
+// jan 18th
+const bubbleSort = require('./bubbleSort/bubbleSort')
+let result = bubbleSort([5, 1, 4, 2, 8])
+console.log([5, 1, 4, 2, 8], '=', result)
+
 // jan 17th
-const combinationSum = require('./combinationSum/combinationSum')
-let result = combinationSum([1, 2, 4], 4)
-console.log([1, 2, 4], '=', result)
-result = combinationSum([2, 3, 6, 7], 7)
-console.log([2, 3, 6, 7], '=', result)
-result = combinationSum([2, 3, 5], 8)
-console.log([2, 3, 5], '=', result)
-result = combinationSum([2], 1)
-console.log([2], '=', result)
+// const combinationSum = require('./combinationSum/combinationSum')
+// let result = combinationSum([1, 2, 4], 4)
+// console.log([1, 2, 4], '=', result)
+// result = combinationSum([2, 3, 6, 7], 7)
+// console.log([2, 3, 6, 7], '=', result)
+// result = combinationSum([2, 3, 5], 8)
+// console.log([2, 3, 5], '=', result)
+// result = combinationSum([2], 1)
+// console.log([2], '=', result)
 
 // jan 16th
 // const swapPairs = require('./swapPairs/swapPairs')

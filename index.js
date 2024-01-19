@@ -1,7 +1,20 @@
+// jan 19th
+const sortCharsByFrequency = require('./sortCharsByFrequency/sortCharsByFrequency')
+let result = sortCharsByFrequency('treess')
+console.log('treess', '=', result)
+result = sortCharsByFrequency('cccaaa')
+console.log('cccaaa', '=', result)
+result = sortCharsByFrequency('aAbb')
+console.log('aAbb', '=', result)
+result = sortCharsByFrequency('antarctica')
+console.log('antarctica', '=', result)
+
 // jan 18th
-const bubbleSort = require('./bubbleSort/bubbleSort')
-let result = bubbleSort([5, 1, 4, 2, 8])
-console.log([5, 1, 4, 2, 8], '=', result)
+// const bubbleSort = require('./bubbleSort/bubbleSort')
+// let result = bubbleSort([5, 1, 4, 2, 8])
+// console.log([5, 1, 4, 2, 8], '=', result)
+// result = bubbleSort([5, 1, 4, 9, 24])
+// console.log([5, 1, 4, 9, 24], '=', result)
 
 // jan 17th
 // const combinationSum = require('./combinationSum/combinationSum')

@@ -1,13 +1,24 @@
 // jan 19th
-const sortCharsByFrequency = require('./sortCharsByFrequency/sortCharsByFrequency')
-let result = sortCharsByFrequency('treess')
-console.log('treess', '=', result)
-result = sortCharsByFrequency('cccaaa')
-console.log('cccaaa', '=', result)
-result = sortCharsByFrequency('aAbb')
-console.log('aAbb', '=', result)
-result = sortCharsByFrequency('antarctica')
-console.log('antarctica', '=', result)
+const maxProfit = require('./maxProfit/maxProfit')
+let result = maxProfit([10, 11, 9.9, 10, 8])
+console.log([10, 11, 9.9, 10, 8], '=', result)
+console.log('******')
+result = maxProfit([10, 11, 9.9, 10.91, 8])
+console.log([10, 11, 9.9, 10.91, 8], '=', result)
+console.log('******')
+result = maxProfit([10, 9, 8.9, 8.5, 8])
+console.log([10, 9, 8.9, 8.5, 8], '=', result)
+
+// jan 19th
+// const sortCharsByFrequency = require('./sortCharsByFrequency/sortCharsByFrequency')
+// let result = sortCharsByFrequency('treess')
+// console.log('treess', '=', result)
+// result = sortCharsByFrequency('cccaaa')
+// console.log('cccaaa', '=', result)
+// result = sortCharsByFrequency('aAbb')
+// console.log('aAbb', '=', result)
+// result = sortCharsByFrequency('antarctica')
+// console.log('antarctica', '=', result)
 
 // jan 18th
 // const bubbleSort = require('./bubbleSort/bubbleSort')

@@ -1,13 +1,25 @@
-// jan 19th
-const maxProfit = require('./maxProfit/maxProfit')
-let result = maxProfit([10, 11, 9.9, 10, 8])
-console.log([10, 11, 9.9, 10, 8], '=', result)
-console.log('******')
-result = maxProfit([10, 11, 9.9, 10.91, 8])
-console.log([10, 11, 9.9, 10.91, 8], '=', result)
-console.log('******')
-result = maxProfit([10, 9, 8.9, 8.5, 8])
-console.log([10, 9, 8.9, 8.5, 8], '=', result)
+// jan 20th
+const gradeDistribution = require('./gradeDistribution/gradeDistribution')
+const grade = [
+  { name: 'John', grade: 85 },
+  { name: 'Emma', grade: 95 },
+  { name: 'Michael', grade: 72 },
+  { name: 'Sophia', grade: 68 },
+  { name: 'Ryan', grade: 90 },
+]
+let result = gradeDistribution(grade)
+console.log(grade, '=', result)
+
+// jan 20th
+// const maxProfit = require('./maxProfit/maxProfit')
+// let result = maxProfit([10, 11, 9.9, 10, 8])
+// console.log([10, 11, 9.9, 10, 8], '=', result)
+// console.log('******')
+// result = maxProfit([10, 11, 9.9, 10.91, 8])
+// console.log([10, 11, 9.9, 10.91, 8], '=', result)
+// console.log('******')
+// result = maxProfit([10, 9, 8.9, 8.5, 8])
+// console.log([10, 9, 8.9, 8.5, 8], '=', result)
 
 // jan 19th
 // const sortCharsByFrequency = require('./sortCharsByFrequency/sortCharsByFrequency')

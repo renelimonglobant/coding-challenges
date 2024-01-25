@@ -1,17 +1,26 @@
+// jan 25th
+const binaryTreePreorder = require('./binaryTreePreorder/binaryTreePreorder')
+let tree = [30, 45, 5, 9, 7, 31, 45, 11, 2]
+// let tree = [1, 7, 9, 2, 6, 9, 5, 11, 5]
+let result = binaryTreePreorder(tree)
+console.log('=', result)
+result = binaryTreePreorder([], true)
+console.log('=', result)
+
 // jan 24th
-const trappingRainWater = require('./trappingRainWater/trappingRainWater')
-let blocks = [3, 0, 0, 2, 0, 4]
-let result = trappingRainWater(blocks)
-console.log(blocks, '=', result)
-blocks = [7, 4, 0, 9]
-result = trappingRainWater(blocks)
-console.log(blocks, '=', result)
-blocks = [6, 9, 9]
-result = trappingRainWater(blocks)
-console.log(blocks, '=', result)
-blocks = [6, 0, 7, 0, 7]
-result = trappingRainWater(blocks)
-console.log(blocks, '=', result)
+// const trappingRainWater = require('./trappingRainWater/trappingRainWater')
+// let blocks = [3, 0, 0, 2, 0, 4]
+// let result = trappingRainWater(blocks)
+// console.log(blocks, '=', result)
+// blocks = [7, 4, 0, 9]
+// result = trappingRainWater(blocks)
+// console.log(blocks, '=', result)
+// blocks = [6, 9, 9]
+// result = trappingRainWater(blocks)
+// console.log(blocks, '=', result)
+// blocks = [6, 0, 7, 0, 7]
+// result = trappingRainWater(blocks)
+// console.log(blocks, '=', result)
 
 // jan 23th
 // const gradeDistribution = require('./gradeDistribution/gradeDistribution')

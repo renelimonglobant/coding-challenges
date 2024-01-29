@@ -1,3 +1,15 @@
+// jan 29th
+const minimumOperationsArray = require('./minimumOperationsArray/minimumOperationsArray')
+let result = minimumOperationsArray([1, 2, 3, 0, 0, 0])
+console.log('=', result)
+result = minimumOperationsArray([2, 3, 3, 2, 2, 4, 2, 3, 4])
+console.log('=', result)
+result = minimumOperationsArray([2, 3, 3, 2, 2, 4, 2, 3, 3, 3, 4])
+console.log('=', result)
+result = minimumOperationsArray([2, 1, 2, 2, 3, 3])
+console.log('=', result)
+
+/*
 // jan 26th
 const mergeSortedArray = require('./mergeSortedArray/mergeSortedArray')
 let a1 = [1, 2, 3, 0, 0, 0]
@@ -15,7 +27,7 @@ a2 = [1]
 mergeSortedArray(a1, a2, 0, 1)
 console.log('=', a1)
 
-/*
+
 // jan 25th
 const binaryTreePreorder = require('./binaryTreePreorder/binaryTreePreorder')
 let tree = [30, 45, 5, 9, 7, 31, 45, 11, 2]

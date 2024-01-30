@@ -1,3 +1,11 @@
+// jan 30th
+const rollThedice = require('./rollThedice/rollThedice')
+let result = rollThedice(1, 6, 3)
+console.log('=', result)
+result = rollThedice(2, 6, 7)
+console.log('=', result)
+
+/*
 // jan 29th
 const minimumOperationsArray = require('./minimumOperationsArray/minimumOperationsArray')
 let result = minimumOperationsArray([1, 2, 3, 0, 0, 0])
@@ -9,7 +17,6 @@ console.log('=', result)
 result = minimumOperationsArray([2, 1, 2, 2, 3, 3])
 console.log('=', result)
 
-/*
 // jan 26th
 const mergeSortedArray = require('./mergeSortedArray/mergeSortedArray')
 let a1 = [1, 2, 3, 0, 0, 0]

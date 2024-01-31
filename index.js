@@ -1,11 +1,30 @@
 // jan 30th
+const balancedParentheses = require('./balancedParentheses/balancedParentheses')
+let result = balancedParentheses('()')
+console.log('()', '=', result)
+result = balancedParentheses('(hello, world)')
+console.log('(hello, world)', '=', result)
+result = balancedParentheses('Random text (as this) is ok().')
+console.log('Random text (as this) is ok().', '=', result)
+result = balancedParentheses(')(')
+console.log(')(', '=', result)
+result = balancedParentheses('(Hello (,) world (!))')
+console.log('(Hello (,) world (!))', '=', result)
+result = balancedParentheses(')()(')
+console.log(')()(', '=', result)
+result = balancedParentheses('())(()')
+console.log('())(()', '=', result)
+result = balancedParentheses('Hello world')
+console.log('Hello world', '=', result)
+
+/*
+// jan 30th
 const rollThedice = require('./rollThedice/rollThedice')
 let result = rollThedice(1, 6, 3)
 console.log('=', result)
 result = rollThedice(2, 6, 7)
 console.log('=', result)
 
-/*
 // jan 29th
 const minimumOperationsArray = require('./minimumOperationsArray/minimumOperationsArray')
 let result = minimumOperationsArray([1, 2, 3, 0, 0, 0])

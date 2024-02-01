@@ -1,3 +1,21 @@
+// feb 1st
+const coinChange = require('./coinChange/coinChange')
+let result = coinChange([1, 2, 5], 11)
+console.log([1, 2, 5], 11, '=', result)
+console.log('*******')
+result = coinChange([2], 3)
+console.log([2], 3, '=', result)
+console.log('*******')
+result = coinChange([2, 2, 5, 8], 10)
+console.log([2, 2, 5, 8], 10, '=', result)
+console.log('*******')
+result = coinChange([2], 4)
+console.log([2], 4, '=', result)
+console.log('*******')
+result = coinChange([20, 2, 10], 2)
+console.log([20, 2, 10], 2, '=', result)
+
+/*
 // jan 30th
 const balancedParentheses = require('./balancedParentheses/balancedParentheses')
 let result = balancedParentheses('()')
@@ -17,7 +35,6 @@ console.log('())(()', '=', result)
 result = balancedParentheses('Hello world')
 console.log('Hello world', '=', result)
 
-/*
 // jan 30th
 const rollThedice = require('./rollThedice/rollThedice')
 let result = rollThedice(1, 6, 3)

@@ -1,7 +1,6 @@
 const coinChange = (coins, amount) => {
-  const combination = Array(amount + 1).fill(amount + 1)
+  const combination = [...Array(amount + 1)].map((_, i) => (i === 0 ? 0 : amount + 1))
   const path = Array(amount + 1).fill([])
-  combination[0] = 0
 
   for (let coin of coins) {
     for (let i = coin; i <= amount; i++) {
@@ -12,6 +11,7 @@ const coinChange = (coins, amount) => {
     }
   }
 
+  //   console.log(path[amount])
   return combination[amount] === amount + 1 ? -1 : combination[amount]
 }
 

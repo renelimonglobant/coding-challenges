@@ -1,3 +1,11 @@
+// feb 2nd
+const base64 = require('./base64Encoding/base64Encoding')
+const encoded = base64.base64Encoding('hola')
+console.log('hola', '=', encoded)
+const decoded = base64.base64Decoding(encoded)
+console.log(encoded, '=', decoded)
+
+/*
 // feb 1st
 const coinChange = require('./coinChange/coinChange')
 let result = coinChange([1, 2, 5], 11)
@@ -15,7 +23,6 @@ console.log('*******')
 result = coinChange([20, 2, 10], 2)
 console.log([20, 2, 10], 2, '=', result)
 
-/*
 // jan 30th
 const balancedParentheses = require('./balancedParentheses/balancedParentheses')
 let result = balancedParentheses('()')

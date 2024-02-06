@@ -28,13 +28,13 @@ class LinkedList {
   }
 
   deleteNthFromEnd(n) {
-    let current = this.head
-    let i = 1
     if (this.nthChildren === 1) {
       this.head = null
       return
     }
 
+    let current = this.head
+    let i = 1
     while (current !== null && current.next !== null) {
       if (this.nthChildren - n === i) current.next = current.next.next
       else current = current.next

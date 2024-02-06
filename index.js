@@ -1,3 +1,13 @@
+// feb 6th
+const removeNthFromEnd = require('./removeNthFromEnd/removeNthFromEnd')
+let result = removeNthFromEnd([1, 2, 3, 4, 5], 2)
+console.log('=', result)
+result = removeNthFromEnd([1], 1)
+console.log('=', result)
+result = removeNthFromEnd([1, 2], 1)
+console.log('=', result)
+
+/*
 // feb 2nd
 const base64 = require('./base64Encoding/base64Encoding')
 const encoded = base64.base64Encoding('hola')
@@ -5,7 +15,6 @@ console.log('hola', '=', encoded)
 const decoded = base64.base64Decoding(encoded)
 console.log(encoded, '=', decoded)
 
-/*
 // feb 1st
 const coinChange = require('./coinChange/coinChange')
 let result = coinChange([1, 2, 5], 11)

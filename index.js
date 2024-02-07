@@ -1,3 +1,13 @@
+// feb 7th
+const searchInRotatedSortedArray = require('./searchInRotatedSortedArray/searchInRotatedSortedArray')
+let result = searchInRotatedSortedArray([4, 5, 6, 7, 0, 1, 2], 0)
+console.log('=', result)
+result = searchInRotatedSortedArray([4, 5, 6, 7, 0, 1, 2], 3)
+console.log('=', result)
+result = searchInRotatedSortedArray([1], 0)
+console.log('=', result)
+
+/*
 // feb 6th
 const removeNthFromEnd = require('./removeNthFromEnd/removeNthFromEnd')
 let result = removeNthFromEnd([1, 2, 3, 4, 5], 2)
@@ -7,7 +17,6 @@ console.log('=', result)
 result = removeNthFromEnd([1, 2], 1)
 console.log('=', result)
 
-/*
 // feb 2nd
 const base64 = require('./base64Encoding/base64Encoding')
 const encoded = base64.base64Encoding('hola')

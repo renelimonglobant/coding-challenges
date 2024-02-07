@@ -5,7 +5,6 @@ const searchInRotatedSortedArray = (nums, target) => {
 
   while (start <= end) {
     const middle = Math.floor((start + end) / 2)
-    console.log('floor', middle, start, '+', end)
 
     if (nums[middle] === target) return middle
 

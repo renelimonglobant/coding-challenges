@@ -1,3 +1,15 @@
+// feb 8th
+const longestPalindrome = require('./longestPalindrome/longestPalindrome')
+let result = longestPalindrome('ana, anna')
+console.log('=', result)
+result = longestPalindrome('babad')
+console.log('=', result)
+result = longestPalindrome('cbbd')
+console.log('=', result)
+result = longestPalindrome('abc')
+console.log('=', result)
+
+/*
 // feb 7th
 const searchInRotatedSortedArray = require('./searchInRotatedSortedArray/searchInRotatedSortedArray')
 let result = searchInRotatedSortedArray([4, 5, 6, 7, 0, 1, 2], 0)
@@ -7,7 +19,6 @@ console.log('=', result)
 result = searchInRotatedSortedArray([1], 0)
 console.log('=', result)
 
-/*
 // feb 6th
 const removeNthFromEnd = require('./removeNthFromEnd/removeNthFromEnd')
 let result = removeNthFromEnd([1, 2, 3, 4, 5], 2)

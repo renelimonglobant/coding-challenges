@@ -1,3 +1,20 @@
+// feb 9th
+const findMostVisitedPages = require('./findMostVisitedPages/findMostVisitedPages')
+const logData = [
+  { url: '/home', userId: 'A' },
+  { url: '/about', userId: 'B' },
+  { url: '/products', userId: 'A' },
+  { url: '/home', userId: 'C' },
+  { url: '/contact', userId: 'B' },
+  { url: '/products', userId: 'D' },
+  { url: '/home', userId: 'A' },
+  { url: '/home', userId: 'B' },
+  { url: '/products', userId: 'A' },
+]
+let result = findMostVisitedPages(logData)
+console.log('=', result)
+
+/*
 // feb 8th
 const longestPalindrome = require('./longestPalindrome/longestPalindrome')
 let result = longestPalindrome('ana, anna')
@@ -9,7 +26,6 @@ console.log('=', result)
 result = longestPalindrome('abc')
 console.log('=', result)
 
-/*
 // feb 7th
 const searchInRotatedSortedArray = require('./searchInRotatedSortedArray/searchInRotatedSortedArray')
 let result = searchInRotatedSortedArray([4, 5, 6, 7, 0, 1, 2], 0)

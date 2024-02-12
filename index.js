@@ -1,3 +1,11 @@
+// feb 12th
+const jumpGameII = require('./jumpGameII/jumpGameII')
+let result = jumpGameII([2, 3, 1, 1, 4])
+console.log('=', result)
+result = jumpGameII([2, 3, 0, 1, 4])
+console.log('=', result)
+
+/*
 // feb 9th
 const findMostVisitedPages = require('./findMostVisitedPages/findMostVisitedPages')
 const logData = [
@@ -14,7 +22,6 @@ const logData = [
 let result = findMostVisitedPages(logData)
 console.log('=', result)
 
-/*
 // feb 8th
 const longestPalindrome = require('./longestPalindrome/longestPalindrome')
 let result = longestPalindrome('ana, anna')

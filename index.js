@@ -1,3 +1,9 @@
+// feb 14th
+const primeNumbers = require('./primeNumbers/primeNumbers')
+let result = primeNumbers()
+console.log('=', result)
+
+/*
 // feb 13th
 const searchRange = require('./searchRange/searchRange')
 let result = searchRange([5, 7, 7, 8, 8, 10], 8)
@@ -7,7 +13,6 @@ console.log('=', result)
 result = searchRange([], 0)
 console.log('=', result)
 
-/*
 // feb 12th
 const jumpGameII = require('./jumpGameII/jumpGameII')
 let result = jumpGameII([2, 3, 1, 1, 4])

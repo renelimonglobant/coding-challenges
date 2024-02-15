@@ -1,9 +1,16 @@
+// feb 15th
+const countingValleys = require('./countingValleys/countingValleys')
+let result = countingValleys(8, 'UDDDUDUU')
+console.log('=', result)
+result = countingValleys(8, 'DDUUUUDD')
+console.log('=', result)
+
+/*
 // feb 14th
 const primeNumbers = require('./primeNumbers/primeNumbers')
 let result = primeNumbers()
 console.log('=', result)
 
-/*
 // feb 13th
 const searchRange = require('./searchRange/searchRange')
 let result = searchRange([5, 7, 7, 8, 8, 10], 8)

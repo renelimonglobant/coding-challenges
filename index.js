@@ -1,3 +1,19 @@
+// feb 16th
+const changeEnough = require('./changeEnough/changeEnough')
+let result = changeEnough([25, 20, 5, 0], 4.25)
+console.log('=', result)
+result = changeEnough([2, 100, 0, 0], 14.11)
+console.log('=', result)
+result = changeEnough([0, 0, 20, 5], 0.75)
+console.log('=', result)
+result = changeEnough([30, 40, 20, 5], 12.55)
+console.log('=', result)
+result = changeEnough([10, 0, 0, 50], 3.85)
+console.log('=', result)
+result = changeEnough([1, 0, 5, 219], 19.99)
+console.log('=', result)
+
+/*
 // feb 15th
 const countingValleys = require('./countingValleys/countingValleys')
 let result = countingValleys(8, 'UDDDUDUU')
@@ -5,7 +21,6 @@ console.log('=', result)
 result = countingValleys(8, 'DDUUUUDD')
 console.log('=', result)
 
-/*
 // feb 14th
 const primeNumbers = require('./primeNumbers/primeNumbers')
 let result = primeNumbers()

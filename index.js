@@ -1,4 +1,14 @@
 // feb 16th
+const generateParentheses = require('./generateParentheses/generateParentheses')
+let result = generateParentheses(3)
+console.log('=', result)
+result = generateParentheses(2)
+console.log('=', result)
+result = generateParentheses(1)
+console.log('=', result)
+
+/*
+// feb 16th
 const changeEnough = require('./changeEnough/changeEnough')
 let result = changeEnough([25, 20, 5, 0], 4.25)
 console.log('=', result)
@@ -13,7 +23,6 @@ console.log('=', result)
 result = changeEnough([1, 0, 5, 219], 19.99)
 console.log('=', result)
 
-/*
 // feb 15th
 const countingValleys = require('./countingValleys/countingValleys')
 let result = countingValleys(8, 'UDDDUDUU')

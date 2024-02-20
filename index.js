@@ -1,4 +1,14 @@
-// feb 16th
+// feb 20th
+const lengthOfLongestSubstring = require('./lengthOfLongestSubstring/lengthOfLongestSubstring')
+let result = lengthOfLongestSubstring('abcabcbb')
+console.log('=', result)
+result = lengthOfLongestSubstring('bbbbb')
+console.log('=', result)
+result = lengthOfLongestSubstring('pwwkew')
+console.log('=', result)
+
+/*
+// feb 19th
 const generateParentheses = require('./generateParentheses/generateParentheses')
 let result = generateParentheses(3)
 console.log('=', result)
@@ -7,7 +17,6 @@ console.log('=', result)
 result = generateParentheses(1)
 console.log('=', result)
 
-/*
 // feb 16th
 const changeEnough = require('./changeEnough/changeEnough')
 let result = changeEnough([25, 20, 5, 0], 4.25)

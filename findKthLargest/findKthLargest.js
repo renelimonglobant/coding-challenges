@@ -5,17 +5,6 @@ function findKthLargest(nums, k) {
     const mid = Math.floor((left + right) / 2)
     const pivot = nums[mid]
     let idx = left
-    // const swapValues = (val1, val2) => {
-    //   //   let tmp
-    //   //   tmp = val1
-    //   //   val1 = val2
-    //   //   val2 = tmp
-    //   return [val2, val1]
-    // }
-
-    // nums[mid] = nums[right]
-    // nums[right] = nums[mid]
-    // ;[nums[mid], nums[right]] = swapValues(nums[mid], nums[right])
     ;[nums[mid], nums[right]] = [nums[right], nums[mid]]
 
     for (let i = left; i < right; i++) {

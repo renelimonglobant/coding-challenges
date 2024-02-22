@@ -1,3 +1,11 @@
+// feb 21th
+const findKthLargest = require('./findKthLargest/findKthLargest')
+let result = findKthLargest([3, 2, 1, 5, 6, 4], 2)
+console.log('=', result)
+result = findKthLargest([3, 2, 3, 1, 2, 4, 5, 5, 6], 4)
+console.log('=', result)
+
+/*
 // feb 20th
 const lengthOfLongestSubstring = require('./lengthOfLongestSubstring/lengthOfLongestSubstring')
 let result = lengthOfLongestSubstring('abcabcbb')
@@ -7,7 +15,6 @@ console.log('=', result)
 result = lengthOfLongestSubstring('pwwkew')
 console.log('=', result)
 
-/*
 // feb 19th
 const generateParentheses = require('./generateParentheses/generateParentheses')
 let result = generateParentheses(3)

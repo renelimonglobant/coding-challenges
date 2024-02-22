@@ -1,3 +1,11 @@
+// feb 22th
+const combinationSum2 = require('./combinationSum2/combinationSum2')
+let result = combinationSum2([10, 1, 2, 7, 6, 1, 5], 8)
+console.log('=', result)
+result = combinationSum2([2, 5, 2, 1, 2], 5)
+console.log('=', result)
+
+/*
 // feb 21th
 const findKthLargest = require('./findKthLargest/findKthLargest')
 let result = findKthLargest([3, 2, 1, 5, 6, 4], 2)
@@ -5,7 +13,6 @@ console.log('=', result)
 result = findKthLargest([3, 2, 3, 1, 2, 4, 5, 5, 6], 4)
 console.log('=', result)
 
-/*
 // feb 20th
 const lengthOfLongestSubstring = require('./lengthOfLongestSubstring/lengthOfLongestSubstring')
 let result = lengthOfLongestSubstring('abcabcbb')

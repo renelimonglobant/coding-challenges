@@ -1,3 +1,11 @@
+// feb 23th
+const multiplyStrings = require('./multiplyStrings/multiplyStrings')
+let result = multiplyStrings('2', '3')
+console.log('=', result)
+result = multiplyStrings('123', '456')
+console.log('=', result)
+
+/*
 // feb 22th
 const combinationSum2 = require('./combinationSum2/combinationSum2')
 let result = combinationSum2([10, 1, 2, 7, 6, 1, 5], 8)
@@ -5,7 +13,6 @@ console.log('=', result)
 result = combinationSum2([2, 5, 2, 1, 2], 5)
 console.log('=', result)
 
-/*
 // feb 21th
 const findKthLargest = require('./findKthLargest/findKthLargest')
 let result = findKthLargest([3, 2, 1, 5, 6, 4], 2)
